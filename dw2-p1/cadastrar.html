@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Cadastro de Usuarios</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/p1.css">
+    <link rel="stylesheet" href="css/sweetalert2.min.css">
+    <body class="p1-container">
+        <div class="p1-display-middle p1-card-4">
+            <header class="p1-container p1-blue">
+                <a href="../" class="botao-voltar p1-button p1-white p1-border p1-border-blue">Voltar</a>
+              </header>
+              <div class="p1-container p1-margin-right">
+                <form id="userForm">
+                    <label for="Nome">Nome:</label><br>
+                    <input type="text" id="nomeuser" name="nomeuser" required><br>
+                    <label for="Email">Email:</label><br>
+                    <input type="text" id="emailuser" name="emailuser" required><br>
+                    <label for="Senha">Senha:</label><br>
+                    <input type="text" id="senhauser" name="senhauser" required><br>
+                    <label for="Criado">Data de Criação:</label><br>
+                    <input type="date" id="criadouser" name="criadouser" required><br>
+                    <label for="DataNascimento">Data de Nascimento:</label><br>
+                    <input type="date" id="datanascimentouser" name="datanascimentouser" required><br>
+                    <button type="button" id="submitButton" class="p1-button p1-white p1-border p1-border-blue">Cadastrar</button>
+                </form>
+                <footer class="p1-container p1-blue">
+                    
+                  </footer>
+              </div>
+           
+    </div>
+<script src="js/sweetalert2.all.min.js"></script> 
+<script src="js/createUser.js"></script>  
+</body>
+</html>
